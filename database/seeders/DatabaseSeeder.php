@@ -65,9 +65,12 @@ class DatabaseSeeder extends Seeder
             $createdDepartments[] = Department::create($dept);
         }
 
+<<<<<<< HEAD
         // Seed verified alumni data
         $this->call(VerifiedAlumniDataSeeder::class);
 
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
         // Create Super Admin
         $superAdmin = User::create([
             'name' => 'Super Administrator',

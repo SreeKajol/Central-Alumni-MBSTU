@@ -20,6 +20,7 @@ class AuthenticatedSessionController extends Controller
             'password' => ['required'],
         ]);
 
+<<<<<<< HEAD
         // Convert email to lowercase for case-insensitive login
         $credentials = [
             'email' => strtolower($request->email),
@@ -45,6 +46,9 @@ class AuthenticatedSessionController extends Controller
                     ->with('warning', 'Your profile is pending verification by the administrator.');
             }
 
+=======
+        if (Auth::attempt($request->only('email', 'password'), $request->boolean('remember'))) {
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
             $request->session()->regenerate();
 
             return redirect()->intended(route('dashboard'));

@@ -140,9 +140,12 @@ class AlumniController extends Controller
         ]);
 
         $validated['user_id'] = auth()->id();
+<<<<<<< HEAD
         
         // Ensure is_profile_public is set (checkbox won't send value if unchecked)
         $validated['is_profile_public'] = $request->has('is_profile_public');
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 
         if ($request->hasFile('profile_photo')) {
             $validated['profile_photo'] = $request->file('profile_photo')
@@ -189,9 +192,12 @@ class AlumniController extends Controller
             'bio' => 'nullable|string|max:1000',
             'is_profile_public' => 'boolean',
         ]);
+<<<<<<< HEAD
         
         // Ensure is_profile_public is set (checkbox won't send value if unchecked)
         $validated['is_profile_public'] = $request->has('is_profile_public');
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 
         if ($request->hasFile('profile_photo')) {
             if ($alumni->profile_photo) {

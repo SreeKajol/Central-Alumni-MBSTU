@@ -4285,6 +4285,7 @@
 #51 /home/kawshik/Desktop/Project/alumni-system/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/home/kawshik/D...')
 #52 {main}
 "} 
+<<<<<<< HEAD
 [2025-11-08 02:15:26] local.ERROR: SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `sessions` where `id` = rZWQk1bgjseXvaVAgqFwoz9RDLKjc45D72wLLXQW limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `sessions` where `id` = rZWQk1bgjseXvaVAgqFwoz9RDLKjc45D72wLLXQW limit 1) at /home/kawshik/Desktop/Project/Central Alumni MBSTU/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825)
 [stacktrace]
 #0 /home/kawshik/Desktop/Project/Central Alumni MBSTU/vendor/laravel/framework/src/Illuminate/Database/Connection.php(979): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
@@ -5475,3 +5476,5 @@
 [2025-11-10 16:43:58] local.ERROR: Error getting career analytics {"error":"cURL error 7: Failed to connect to localhost port 8081 after 0 ms: Could not connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://localhost:8081/api/analytics/career"} 
 [2025-11-10 16:56:54] local.ERROR: Error getting career analytics {"error":"cURL error 7: Failed to connect to localhost port 8081 after 0 ms: Could not connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://localhost:8081/api/analytics/career"} 
 [2025-11-10 17:08:47] local.ERROR: Error getting career analytics {"error":"cURL error 7: Failed to connect to localhost port 8081 after 0 ms: Could not connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://localhost:8081/api/analytics/career"} 
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49

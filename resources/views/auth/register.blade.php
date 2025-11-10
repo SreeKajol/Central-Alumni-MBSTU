@@ -54,6 +54,7 @@
                         @error('email')
                             <p class="text-red-600 text-sm mt-1">{{ $message }}</p>
                         @enderror
+<<<<<<< HEAD
                         <p class="text-xs text-gray-500 mt-1">Use your registered alumni email</p>
                     </div>
 
@@ -72,6 +73,8 @@
                             <p class="text-red-600 text-sm mt-1">{{ $message }}</p>
                         @enderror
                         <p class="text-xs text-gray-500 mt-1">Enter your MBSTU student ID</p>
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
                     </div>
 
                     <div class="form-group">
@@ -123,6 +126,7 @@
             </div>
 
             <div class="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+<<<<<<< HEAD
                 <p class="text-sm text-blue-800 mb-2">
                     <strong>🔒 Verified Alumni Only:</strong> Registration is restricted to verified alumni only. 
                     You must provide your registered email and student ID that matches our alumni records.
@@ -130,6 +134,11 @@
                 <p class="text-sm text-blue-800">
                     Your profile will be automatically verified upon successful registration with your education 
                     details pre-filled from our records.
+=======
+                <p class="text-sm text-blue-800">
+                    <strong>Note:</strong> After registration, you'll be able to create your complete alumni profile 
+                    with your education details, career information, and more.
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
                 </p>
             </div>
         </div>

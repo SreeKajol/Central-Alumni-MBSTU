@@ -275,12 +275,18 @@
                 <h2 class="text-3xl font-bold text-gray-900 mb-8">Featured Alumni</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <!-- Alumni Profile 1 -->
+<<<<<<< HEAD
                     <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300 cursor-pointer">
                         <a href="{{ route('alumni.index') }}" class="block group">
+=======
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+                        <a href="{{ route('alumni.archive') }}" class="block group">
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
                             <div class="relative inline-block mb-4">
                                 <div class="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
                                 <img src="/images/profile-alumni1.jpg" alt="Dr. Nazmul Hasan" class="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg ring-4 ring-primary-100 group-hover:ring-primary-200 transition duration-300">
                             </div>
+<<<<<<< HEAD
                             <h3 class="text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition">Dr. Nazmul Hasan</h3>
                             <p class="text-sm text-primary-600 font-medium mb-1">PhD, Oxford University</p>
                             <p class="text-xs text-gray-500 mb-3">CSE Batch 2005</p>
@@ -291,10 +297,23 @@
                     <!-- Alumni Profile 2 -->
                     <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300 cursor-pointer">
                         <a href="{{ route('alumni.index') }}" class="block group">
+=======
+                        </a>
+                        <h3 class="text-xl font-semibold text-gray-900">Dr. Nazmul Hasan</h3>
+                        <p class="text-sm text-primary-600 font-medium mb-1">PhD, Oxford University</p>
+                        <p class="text-xs text-gray-500 mb-3">CSE Batch 2005</p>
+                        <p class="mt-3 text-gray-600 text-sm italic">"The MBSTU Alumni Network helped me reconnect with my mentors and collaborate on global research projects."</p>
+                    </div>
+
+                    <!-- Alumni Profile 2 -->
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+                        <a href="{{ route('alumni.archive') }}" class="block group">
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
                             <div class="relative inline-block mb-4">
                                 <div class="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
                                 <img src="/images/profile-alumni2.jpg" alt="Engr. Afsana Rahman" class="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg ring-4 ring-primary-100 group-hover:ring-primary-200 transition duration-300">
                             </div>
+<<<<<<< HEAD
                             <h3 class="text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition">Engr. Afsana Rahman</h3>
                             <p class="text-sm text-primary-600 font-medium mb-1">Software Engineer, Google</p>
                             <p class="text-xs text-gray-500 mb-3">EEE Batch 2010</p>
@@ -305,10 +324,23 @@
                     <!-- Alumni Profile 3 -->
                     <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300 cursor-pointer">
                         <a href="{{ route('alumni.index') }}" class="block group">
+=======
+                        </a>
+                        <h3 class="text-xl font-semibold text-gray-900">Engr. Afsana Rahman</h3>
+                        <p class="text-sm text-primary-600 font-medium mb-1">Software Engineer, Google</p>
+                        <p class="text-xs text-gray-500 mb-3">EEE Batch 2010</p>
+                        <p class="mt-3 text-gray-600 text-sm italic">"This platform bridges generations of MBSTU alumni and opens doors for professional collaboration."</p>
+                    </div>
+
+                    <!-- Alumni Profile 3 -->
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+                        <a href="{{ route('alumni.archive') }}" class="block group">
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
                             <div class="relative inline-block mb-4">
                                 <div class="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
                                 <img src="/images/profile-alumni3.jpg" alt="Md. Saif Hossain" class="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg ring-4 ring-primary-100 group-hover:ring-primary-200 transition duration-300">
                             </div>
+<<<<<<< HEAD
                             <h3 class="text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition">Md. Saif Hossain</h3>
                             <p class="text-sm text-primary-600 font-medium mb-1">Entrepreneur & CEO</p>
                             <p class="text-xs text-gray-500 mb-3">BBA Batch 2012</p>
@@ -329,6 +361,15 @@
                         </svg>
                     </a>
                 </div>
+=======
+                        </a>
+                        <h3 class="text-xl font-semibold text-gray-900">Md. Saif Hossain</h3>
+                        <p class="text-sm text-primary-600 font-medium mb-1">Entrepreneur & CEO</p>
+                        <p class="text-xs text-gray-500 mb-3">BBA Batch 2012</p>
+                        <p class="mt-3 text-gray-600 text-sm italic">"A powerful community that continues to inspire innovation and leadership among MBSTU graduates."</p>
+                    </div>
+                </div>
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
             </div>
         </section>
 
@@ -372,7 +413,11 @@
                             <div class="flex items-center pt-3 border-t border-gray-200">
                                 <img src="/images/author2.jpg" alt="Author" class="w-8 h-8 rounded-full object-cover mr-3">
                                 <div>
+<<<<<<< HEAD
                                     <p class="text-sm font-semibold text-gray-900">Professor Dr. Motiur Rahman</p>
+=======
+                                    <p class="text-sm font-semibold text-gray-900">Prof. Fatema Begum</p>
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
                                     <p class="text-xs text-gray-500">Research Coordinator</p>
                                 </div>
                             </div>
@@ -393,7 +438,11 @@
                             <div class="flex items-center pt-3 border-t border-gray-200">
                                 <img src="/images/author3.jpg" alt="Author" class="w-8 h-8 rounded-full object-cover mr-3">
                                 <div>
+<<<<<<< HEAD
                                     <p class="text-sm font-semibold text-gray-900">Professor Dr. Md. Anwarul Azim Akhand</p>
+=======
+                                    <p class="text-sm font-semibold text-gray-900">Engr. Kamal Hossain</p>
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
                                     <p class="text-xs text-gray-500">Career Development Lead</p>
                                 </div>
                             </div>

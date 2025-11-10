@@ -13,7 +13,10 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->alias([
             'role' => \App\Http\Middleware\RoleMiddleware::class,
+<<<<<<< HEAD
             'verified.alumni' => \App\Http\Middleware\EnsureAlumniIsVerified::class,
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {

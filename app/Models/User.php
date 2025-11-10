@@ -35,12 +35,15 @@ class User extends Authenticatable
         ];
     }
 
+<<<<<<< HEAD
     // Mutators
     public function setEmailAttribute($value)
     {
         $this->attributes['email'] = strtolower($value);
     }
 
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
     // Relationships
     public function department()
     {
@@ -74,7 +77,11 @@ class User extends Authenticatable
         return $this->role === UserRole::ALUMNI;
     }
 
+<<<<<<< HEAD
     public function canManageDepartment(?Department $department = null): bool
+=======
+    public function canManageDepartment(Department $department = null): bool
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
     {
         if ($this->isSuperAdmin()) {
             return true;

@@ -6,7 +6,10 @@ use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\ProfileController;
+<<<<<<< HEAD
 use App\Http\Controllers\RecommendationController;
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 use Illuminate\Support\Facades\Route;
 
 // Public routes
@@ -54,6 +57,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/news/{news}/edit', [NewsController::class, 'edit'])->name('news.edit');
     Route::put('/news/{news}', [NewsController::class, 'update'])->name('news.update');
     Route::delete('/news/{news}', [NewsController::class, 'destroy'])->name('news.destroy');
+<<<<<<< HEAD
 
     // AI-Powered Recommendations (Java Microservice Integration)
     Route::get('/recommendations', [RecommendationController::class, 'index'])->name('recommendations.index');
@@ -61,6 +65,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/recommendations/mentorship', [RecommendationController::class, 'mentorship'])->name('recommendations.mentorship');
     Route::get('/recommendations/batchmates', [RecommendationController::class, 'batchmates'])->name('recommendations.batchmates');
     Route::get('/analytics/career', [RecommendationController::class, 'analytics'])->name('analytics.career');
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 });
 
 // Public routes (dynamic routes come after specific authenticated routes)

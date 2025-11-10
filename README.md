@@ -4,7 +4,10 @@ A comprehensive Laravel-based platform for managing alumni of Mawlana Bhashani S
 
 ## Features
 
+<<<<<<< HEAD
 ### Core Features
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 - **Multi-Role System**: Super Admin, Department Admin, Alumni, and Guest roles
 - **Department Management**: Dedicated pages for each department
 - **Alumni Profiles**: Complete profiles with photos, education, career info
@@ -12,6 +15,7 @@ A comprehensive Laravel-based platform for managing alumni of Mawlana Bhashani S
 - **Responsive Dashboard**: Modern UI with sliding sidebar navigation
 - **Search & Filter**: Advanced alumni directory search
 
+<<<<<<< HEAD
 ### 🤖 NEW: AI-Powered Features (Java Microservice)
 - **Smart Recommendations**: ML-based alumni networking suggestions
 - **Mentorship Matching**: Connect with senior alumni mentors
@@ -22,15 +26,22 @@ A comprehensive Laravel-based platform for managing alumni of Mawlana Bhashani S
 ## Requirements
 
 ### Laravel Application
+=======
+## Requirements
+
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 - PHP 8.2+
 - MySQL 8.0+
 - Composer
 - Node.js & NPM
 
+<<<<<<< HEAD
 ### Java Microservice (Optional - for AI features)
 - Java JDK 17+
 - Apache Maven 3.6+
 
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 ## Installation
 
 ```bash
@@ -57,6 +68,7 @@ npm run dev
 php artisan serve
 ```
 
+<<<<<<< HEAD
 ### Optional: Java Microservice Setup
 
 For AI-powered recommendations and analytics:
@@ -75,6 +87,8 @@ mvn spring-boot:run
 
 **See [JAVA_INTEGRATION_GUIDE.md](JAVA_INTEGRATION_GUIDE.md) for detailed documentation.**
 
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 ## Default Credentials
 
 After seeding:
@@ -84,13 +98,17 @@ After seeding:
 
 ## Technology Stack
 
+<<<<<<< HEAD
 ### Laravel Application
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 - **Backend**: Laravel 11
 - **Frontend**: Blade Templates, TailwindCSS, Alpine.js
 - **Database**: MySQL
 - **Authentication**: Laravel Breeze
 - **Icons**: Lucide Icons
 
+<<<<<<< HEAD
 ### Java Microservice
 - **Framework**: Spring Boot 3.2
 - **Language**: Java 17
@@ -98,6 +116,8 @@ After seeding:
 - **Algorithms**: Apache Commons Math
 - **Build Tool**: Maven
 
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 ## Project Structure
 
 ```
@@ -129,6 +149,7 @@ alumni-system/
 ✅ Phase 5: Alumni Profiles
 ✅ Phase 6: Events & News
 ✅ Phase 7: Search & Filters
+<<<<<<< HEAD
 ✅ **Phase 8: Java Microservice Integration (AI Features)**
 
 ## Documentation
@@ -142,6 +163,8 @@ Includes:
 - Career Analytics Dashboard
 - Troubleshooting
 - Recent Updates & Fixes
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 
 ## License
 

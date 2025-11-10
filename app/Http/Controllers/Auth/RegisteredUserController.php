@@ -5,9 +5,12 @@ namespace App\Http\Controllers\Auth;
 use App\Enums\UserRole;
 use App\Http\Controllers\Controller;
 use App\Models\User;
+<<<<<<< HEAD
 use App\Models\VerifiedAlumniData;
 use App\Models\AlumniProfile;
 use App\Models\Department;
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -27,6 +30,7 @@ class RegisteredUserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+<<<<<<< HEAD
             'student_id' => ['required', 'string'],
         ]);
 
@@ -45,10 +49,15 @@ class RegisteredUserController extends Controller
         $department = Department::where('code', $deptCode)->first();
 
         // Create user account
+=======
+        ]);
+
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+<<<<<<< HEAD
             'role' => UserRole::ALUMNI,
             'department_id' => $department?->id,
         ]);
@@ -69,10 +78,19 @@ class RegisteredUserController extends Controller
         // Mark the verified data as used
         $verifiedData->markAsUsed();
 
+=======
+            'role' => UserRole::ALUMNI, // Default role for new registrations
+        ]);
+
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
         event(new Registered($user));
 
         Auth::login($user);
 
+<<<<<<< HEAD
         return redirect()->route('dashboard')->with('success', 'Welcome! Your account has been created and verified.');
+=======
+        return redirect()->route('dashboard');
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
     }
 }

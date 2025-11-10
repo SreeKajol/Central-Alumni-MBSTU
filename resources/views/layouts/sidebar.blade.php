@@ -78,6 +78,7 @@
                 <span class="sidebar-text">News & Notices</span>
             </a>
 
+<<<<<<< HEAD
             <!-- AI Intelligence Section -->
             <div class="px-4 mt-6 mb-2">
                 <h3 class="sidebar-text text-xs font-semibold text-primary-300 uppercase tracking-wider">🤖 AI Intelligence</h3>
@@ -99,6 +100,8 @@
                 <span class="sidebar-text">Career Analytics</span>
             </a>
 
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
             <!-- My Account Section -->
             <div class="px-4 mt-6 mb-2">
                 <h3 class="sidebar-text text-xs font-semibold text-primary-300 uppercase tracking-wider">My Account</h3>

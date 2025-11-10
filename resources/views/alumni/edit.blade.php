@@ -235,6 +235,7 @@
             <!-- Action Buttons -->
             <div class="pt-6 border-t flex items-center justify-between">
                 <a href="{{ route('alumni.show', $alumni) }}" class="btn btn-secondary">Cancel</a>
+<<<<<<< HEAD
                 <button type="submit" class="btn btn-primary">
                     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -252,6 +253,25 @@
                 Delete Profile
             </button>
         </form>
+=======
+                <div class="flex space-x-3">
+                    <form action="{{ route('alumni.destroy', $alumni) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete your profile? This action cannot be undone.');">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="btn bg-red-600 hover:bg-red-700 text-white">
+                            Delete Profile
+                        </button>
+                    </form>
+                    <button type="submit" class="btn btn-primary">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        Update Profile
+                    </button>
+                </div>
+            </div>
+        </form>
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
     </div>
 </div>
 

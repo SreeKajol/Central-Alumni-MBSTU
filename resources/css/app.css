@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 /* Custom gradient backgrounds for analytics page */
 @layer utilities {
     .bg-gradient-analytics {
@@ -33,6 +34,8 @@
     }
 }
 
+=======
+>>>>>>> 78ebf9cf692714fb93a2894277478235eb635f49
 @layer base {
     body {
         @apply bg-gray-50 text-gray-900;
